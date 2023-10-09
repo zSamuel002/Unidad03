@@ -21,7 +21,7 @@ public class SFibonacci {
         num = n.nextInt();
         n.close();
             
-        for (int i = 0; i < num; i++) {           
+        for (int i = 0; i <= num; i++) {           
             System.out.println(f);
             f = f1 + f2;
             f2 = f1;
